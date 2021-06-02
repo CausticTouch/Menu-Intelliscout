@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Perfis">
+            <menu>
+                <item
+                    android:id="@+id/nav_perfil"
+                    android:icon="@drawable/user"
+                    android:title="@string/menu_pagina_perfil"/>
+                <item
+                    android:id="@+id/nav_editar_ecuteiros"
+                    android:icon="@drawable/user_editar"
+                    android:title="@string/menu_editar_escuteiros"/>
+                <item
+                    android:id="@+id/nav_gerir_escuteiros"
+                    android:icon="@drawable/user_gerir"
+                    android:title="@string/menu_gerir_escuteiros"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="@string/menu_logout"/>
+            </menu>
+
+        </item>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Atividades">
+            <menu>
+                <item
+                    android:id="@+id/nav_atividades"
+                    android:icon="@drawable/atividade"
+                    android:title="@string/menu_atividades" />
+                <item
+                    android:id="@+id/nav_editar_atividades"
+                    android:icon="@drawable/atividade_editar"
+                    android:title="@string/menu_editar_atividades" />
+                <item
+                    android:id="@+id/nav_gerir_atividades"
+                    android:icon="@drawable/atividade_gerir"
+                    android:title="@string/menu_gerir_atividades" />
+                <item
+                    android:id="@+id/nav_calendario"
+                    android:icon="@drawable/calendar"
+                    android:title="@string/menu_calendario"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Manual de Instruções">
+            <menu>
+                <item
+                    android:id="@+id/nav_manual"
+                    android:icon="@drawable/manual"
+                    android:title="@string/menu_manual" />
+                <item
+                    android:id="@+id/nav_editar_instrucoes"
+                    android:icon="@drawable/manual_editar"
+                    android:title="@string/menu_editar_instrucoes" />
+                <item
+                    android:id="@+id/nav_gerir_instrucoes"
+                    android:icon="@drawable/manual_gerir"
+                    android:title="@string/menu_gerir_instrucoes" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Equipamentos">
+            <menu>
+                <item
+                    android:id="@+id/nav_equipamentos"
+                    android:icon="@drawable/equipamentos"
+                    android:title="@string/menu_equipamentos" />
+                <item
+                    android:id="@+id/nav_editar_equipamentos"
+                    android:icon="@drawable/equipamentos_editar"
+                    android:title="@string/menu_editar_equipamentos" />
+                <item
+                    android:id="@+id/nav_gerir_equipamentos"
+                    android:icon="@drawable/equipamentos_gerir"
+                    android:title="@string/menu_gerir_equipamentos" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

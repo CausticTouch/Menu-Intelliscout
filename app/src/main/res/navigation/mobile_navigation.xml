@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_perfil"
+    tools:ignore="InvalidNavigation">
+
+    <!--Perfis inicio-->
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="ipca.example.test.ui.Perfil.PerfilFragment"
+        android:label="@string/menu_pagina_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/nav_editar_ecuteiros"
+        android:name="ipca.example.test.ui.Perfil.EditarEscuteirosFragment"
+        android:label="@string/menu_editar_escuteiros"
+        tools:layout="@layout/fragment_editar_escuteiros"/>
+    <fragment
+        android:id="@+id/nav_gerir_escuteiros"
+        android:name="ipca.example.test.ui.Perfil.GerirEscuteirosFragment"
+        android:label="@string/menu_gerir_escuteiros"
+        tools:layout="@layout/fragment_gerir_escuteiros"/>
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="ipca.example.test.ui.Perfil.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout"/>
+    <!--Perfis Fim-->
+    <!--Atividades Inicio-->
+    <fragment
+        android:id="@+id/nav_atividades"
+        android:name="ipca.example.test.ui.Atividades.AtividadesFragment"
+        android:label="@string/menu_atividades"
+        tools:layout="@layout/fragment_atividade" />
+    <fragment
+        android:id="@+id/nav_editar_atividades"
+        android:name="ipca.example.test.ui.Atividades.EditarAtividadesFragment"
+        android:label="@string/menu_editar_atividades"
+        tools:layout="@layout/fragment_editar_atividades" />
+    <fragment
+        android:id="@+id/nav_gerir_atividades"
+        android:name="ipca.example.test.ui.Atividades.GerirAtividadesFragment"
+        android:label="@string/menu_gerir_atividades"
+        tools:layout="@layout/fragment_gerir_atividades" />
+    <fragment
+        android:id="@+id/nav_calendario"
+        android:name="ipca.example.test.ui.Atividades.CalendarioFragment"
+        android:label="@string/menu_calendario"
+        tools:layout="@layout/fragment_calendario" />
+    <!--Atividades Fim-->
+    <!--Manual Inicio-->
+    <fragment
+        android:id="@+id/nav_manual"
+        android:name="ipca.example.test.ui.Manual.ManualFragment"
+        android:label="@string/menu_manual"
+        tools:layout="@layout/fragment_manual" />
+    <fragment
+        android:id="@+id/nav_editar_instrucoes"
+        android:name="ipca.example.test.ui.Manual.EditarInstrucoesFragment"
+        android:label="@string/menu_editar_instrucoes"
+        tools:layout="@layout/fragment_editar_instrucoes" />
+    <fragment
+        android:id="@+id/nav_gerir_instrucoes"
+        android:name="ipca.example.test.ui.Manual.GerirInstrucoesFragment"
+        android:label="@string/menu_gerir_instrucoes"
+        tools:layout="@layout/fragment_gerir_instrucoes" />
+    <!--Manual Fim-->
+    <!--Equipamentos Inicio-->
+    <fragment
+        android:id="@+id/nav_equipamentos"
+        android:name="ipca.example.test.ui.Equipamento.EquipamentoFragment"
+        android:label="@string/menu_equipamentos"
+        tools:layout="@layout/fragment_equipamento" />
+    <fragment
+        android:id="@+id/nav_editar_equipamentos"
+        android:name="ipca.example.test.ui.Equipamento.EditarEquipamentosFragment"
+        android:label="@string/menu_editar_equipamentos"
+        tools:layout="@layout/fragment_editar_equipamentos" />
+    <fragment
+        android:id="@+id/nav_gerir_equipamentos"
+        android:name="ipca.example.test.ui.Equipamento.GerirEquipamentosFragment"
+        android:label="@string/menu_gerir_equipamentos"
+        tools:layout="@layout/fragment_gerir_equipamentos" />
+    <!--Equipamentos Fim-->
+</navigation>
